@@ -9,7 +9,7 @@ function checarPrimo(n) {
 	else if(!(n % 2) || !(n % 3)) return false;
 	let i = 5;
 	while(i * i <= n) {
-		if(!(n % i) || !(n % (i >> 1))) return false;
+		if(!(n % i) || !(n % (i + 2))) return false;
 		i += 6;
 	}
 	return true;
