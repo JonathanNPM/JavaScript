@@ -13,7 +13,7 @@ public class MDC {
             int a = sc.nextInt();
             System.out.print("Informe o segundo numero: ");
             int b = sc.nextInt();
-            System.out.printf("O MDC de %d e %d é: %d", a, b, calcular(a, b));
+            System.out.printf("O MDC de %d e %d é: %d\n", a, b, calcular(a, b));
         } catch (Exception e) {
             System.out.println();
             System.out.println("Entrada invalida");
